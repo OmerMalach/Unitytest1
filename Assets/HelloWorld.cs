@@ -8,6 +8,9 @@ public class HelloWorld : MonoBehaviour
     void Start()
     {
         print("hello world started");
+        Debug.Log("im printing from debug");
+        Debug.LogWarning("yo motherfucker!");
+        Debug.LogError("hhahahaahah");
     }
 
     // Update is called once per frame
